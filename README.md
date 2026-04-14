@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Asfaltos Nordeste
 
-## Getting Started
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/badge/licença-proprietária-red)
 
-First, run the development server:
+Site institucional da **Asfaltos Nordeste**, desenvolvido como projeto freelance com foco em performance, apresentação visual e experiência do usuário.
+
+🌐 **[asfneteste.qzitosis.com](https://asfneteste.qzitosis.com)**
+
+> ⚠️ **Projeto em desenvolvimento ativo.** Funcionalidades, estrutura e design ainda podem mudar até a entrega final.
+
+---
+
+## Sobre o projeto
+
+A Asfaltos Nordeste precisava de uma presença digital que transmitisse credibilidade e profissionalismo. O site foi construído do zero com Next.js, priorizando carregamento rápido, animações fluidas e uma navegação simples — sem nada que distraia do que realmente importa: o negócio do cliente.
+
+---
+
+## Stack
+
+| Tecnologia | Versão | Por quê |
+|---|---|---|
+| [Next.js](https://nextjs.org/) | 16 | SSR/SSG, roteamento e otimizações de imagem out-of-the-box |
+| [React](https://react.dev/) | 19 | Base do projeto |
+| [TypeScript](https://www.typescriptlang.org/) | 5 | Tipagem estática, menos bug em runtime |
+| [Tailwind CSS](https://tailwindcss.com/) | 4 | Estilização utilitária sem overhead de CSS customizado |
+| [Framer Motion](https://www.framer.com/motion/) | 12 | Animações declarativas e performáticas |
+| [Lucide React](https://lucide.dev/) | latest | Ícones consistentes e leves |
+| [D3.js](https://d3js.org/) | 7 | Visualizações de dados customizadas |
+
+---
+
+## Rodando localmente
+
+**Pré-requisitos:** Node.js 18+ e npm (ou yarn/pnpm/bun).
 
 ```bash
+# Clone o repositório
+git clone https://github.com/matheuscandidodev/asfaltosnordeste.git
+cd asfaltosnordeste
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Scripts disponíveis
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev      # Servidor de desenvolvimento com hot reload
+npm run build    # Build de produção
+npm run start    # Inicia o servidor em modo produção
+npm run lint     # Analisa o código com ESLint
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Estrutura do projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+asfaltosnordeste/
+├── public/          # Arquivos estáticos (imagens, fontes, favicon)
+├── src/
+│   ├── app/         # Rotas e layouts (App Router do Next.js)
+│   ├── components/  # Componentes reutilizáveis
+│   └── styles/      # Estilos globais
+├── next.config.ts
+├── tailwind.config.js
+└── tsconfig.json
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Licença e direitos autorais
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este é um projeto **proprietário** desenvolvido sob contrato de prestação de serviços.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Todo o código-fonte, design e demais ativos deste repositório são de propriedade do desenvolvedor e/ou do cliente contratante. **Nenhuma parte deste projeto pode ser copiada, reproduzida, distribuída ou utilizada — integral ou parcialmente — sem autorização expressa e por escrito.**
+
+O repositório é público exclusivamente para fins de portfólio e demonstração técnica. Isso não configura licença de uso ou distribuição de qualquer natureza.
+
+---
+
+## Autor
+
+Desenvolvido por **[Matheus Cândido](https://github.com/matheuscandidodev)**
