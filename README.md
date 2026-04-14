@@ -13,7 +13,7 @@ Site institucional da **Asfaltos Nordeste**, desenvolvido como projeto freelance
 
 ## Sobre o projeto
 
-A Asfaltos Nordeste precisava de uma presença digital que transmitisse credibilidade e profissionalismo. O site foi construído do zero com Next.js, priorizando carregamento rápido, animações fluidas e uma navegação simples — sem nada que distraia do que realmente importa: o negócio do cliente.
+A Asfaltos Nordeste precisava de uma presença digital que transmitisse credibilidade e profissionalismo. O site foi construído do zero com Next.js, priorizando carregamento rápido, animações fluidas e uma navegação simples, sem nada que distraia do que realmente importa: o negócio do cliente.
 
 ---
 
@@ -80,7 +80,7 @@ asfaltosnordeste/
 
 Este é um projeto **proprietário** desenvolvido sob contrato de prestação de serviços.
 
-Todo o código-fonte, design e demais ativos deste repositório são de propriedade do desenvolvedor e/ou do cliente contratante. **Nenhuma parte deste projeto pode ser copiada, reproduzida, distribuída ou utilizada — integral ou parcialmente — sem autorização expressa e por escrito.**
+Todo o código-fonte, design e demais ativos deste repositório são de propriedade do desenvolvedor e/ou do cliente contratante. **Nenhuma parte deste projeto pode ser copiada, reproduzida, distribuída ou utilizada, integral ou parcialmente, sem autorização expressa e por escrito.**
 
 O repositório é público exclusivamente para fins de portfólio e demonstração técnica. Isso não configura licença de uso ou distribuição de qualquer natureza.
 
